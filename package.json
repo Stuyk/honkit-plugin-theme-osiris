@@ -1,6 +1,6 @@
 {
     "name": "honkit-plugin-theme-osiris",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A dark theme for Honkit.",
     "main": "index.js",
     "author": "stuyk",

@@ -18,11 +18,18 @@ async function handleInitHook() {
         });
     });
 
-    this.output.writeFile("bg.png", bgData);
-    return this.output.writeFile("osiris.css", lessData);
+    const newBgPath = path.join("gitbook", "gitbook-plugin-honkit-plugin-theme-osiris", "bg.png");
+    const newCSSPath = path.join("gitbook", "gitbook-plugin-honkit-plugin-theme-osiris", "osiris.css");
+
+    this.output.writeFile(newBgPath, bgData);
+    return this.output.writeFile(newCSSPath, lessData);
 }
 
 module.exports = {
+    website: {
+        assets: "./_assets/",
+        css: ["osiris.css"],
+    },
     hooks: {
         init: handleInitHook, // Called after everything is completed.
     },
