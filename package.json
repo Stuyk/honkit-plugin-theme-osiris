@@ -1,0 +1,33 @@
+{
+    "name": "honkit-plugin-theme-osiris",
+    "version": "1.0.0",
+    "description": "A dark theme for Honkit.",
+    "main": "index.js",
+    "author": "stuyk",
+    "license": "Apache-2.0",
+    "engines": {
+        "honkit": ">1.x.x"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120,
+        "semi": true
+    },
+    "dependencies": {
+        "less": "^4.1.1"
+    },
+    "homepage": "https://github.com/stuyk/honkit-plugin-theme-osiris",
+    "keywords": [
+        "theme",
+        "honkit",
+        "osiris",
+        "gitbook"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stuyk/honkit-plugin-theme-osiris"
+    },
+    "bugs": {
+        "url": "https://github.com/stuyk/honkit-plugin-theme-osiris/issues"
+    }
+}
